@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300&family=Open+Sans:wght@300&family=Rubik&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/3844bbc7f8.js" crossorigin="anonymous"></script><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+   <section id = "about">
+    <div class = "container-fluid">
+    <nav class ="navbar navbar-light navbar-expand-lg ">
+       
+    <a class = "navbar-brand ps-4" id ="naslov" href=""><img class ="ms-1" src="images/book.png" width="65px" height="30px" alt="">Climax</a>
+    <button class=" pe-5 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+       <ul class ="navbar-nav ms-auto me-5 ms-4">
+        <li class ="nav-item ms-4 "><a class ="nav-link" href="index.html"> About</a></li>
+        <li class ="nav-item ms-4"><a class ="nav-link" href=""> Blog</a></li>
+        <li class ="nav-item ms-4"><a class ="nav-link" href="#footer"> Contact</a></li>
+    </ul>
+</div>
+   </nav>
+</section>
+   
+   <section id = "middle">
+    <h2 id ="latest" class ="text-center">Recently added books</h2>
+   <div class ="row visible_part" >
+    <div class =" text-center mt-2 col-md-4 "  >
+        <a href="perfume.html"><img src="images/perfume.jpg" alt="perfume-book" width="300px" height="400px"></a>
+      <h5 class ="mt-1">Perfume: The Story of a Murderer - Patrick Süskind </h5>
+      
+              
+    </div>
+    
+    
+    <div class ="text-center mt-2 col-md-4 ">
+        <img src="images/dostoevsky.jpg" alt="crime-and-punishment-book" width="300px" height="400px">
+      <h5 class ="mt-1">Crime and Punishment - Fyodor Dostoyevsky</h5>
+    </div>
+
+    <div class ="text-center mt-2 col-md-4 ">
+        <img src="images/venice.jpg" alt="death-in-venice-book" width="300px" height="400px">
+       <h5 class ="mt-1">Death in Venice - Thomas Mann</h5>
+    </div>
+
+    </div>
+    
+       
+    
+   
+    <div class ="row mt-2" id="section_part_two" >
+        <a class ="mt-5 mb-5" id ="view_more" href="#section_part_two" onclick="toggler('myContent', 'myContent1', 'myContent2');">View More</a>
+        <div class =" text-center mt-2 col-md-4 ">
+            <div id = "myContent" class ="hidden">
+         <img src="images/karamazov.jpg" alt="the-brothers-karamazov-book" width="300px" height="400px">
+          <h5 class ="mt-1">The Brothers Karamazov - Fyodor Dostoyevsky </h5>
+        </div>
+                  
+        </div>
+        
+        
+        <div class ="text-center mt-2 col-md-4" >
+            <div id = "myContent1" class ="hidden">
+            <img src="images/plato.jpg" alt="the-republic-book" width="300px" height="400px">
+          <h5 class ="mt-1">Republic - Plato</h5>
+          </div>
+        </div>
+    
+        <div class =" text-center mt-2 col-md-4">
+            <div id = "myContent2" class ="hidden" >
+            <img src="images/kafka.jpg" alt="the-trial-book" width="300px" height="400px">
+           <h5 class ="mt-1">The Trial - Franz Kafka</h5>
+        </div>
+        </div>
+    
+        </div>
+    </section>
+   
+        <section id="final" class ="text-center ">
+
+            <h3 class ="text-center mt-4">Find your next good read and comprehend the deeper meaning behind it today.</h3>
+            <button type="button" class ="btn btn-lg btn-outline-dark mt-3 me-3"><i class="fab fa-google-play"> </i> Download</button>
+            <button type="button" class = "btn btn-lg btn-dark mt-3"> <i class="fab fa-apple"></i> Download</button>
+        
+          </section>
+  
+        <footer id="footer" class ="text-center">
+
+            <p>© Copyright 2022 Climax</p>
+            
+            <i class="fas fa-at ikoni"></i>
+            <i class="fab fa-twitter ikoni"></i>
+            <i class="fab fa-facebook ikoni"></i>
+            <i class="fab fa-instagram-square ikoni"></i>
+        
+          </footer>
+       
+  
+     <script src="main.js"></script>  
+</body>
+</html>

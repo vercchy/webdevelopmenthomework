@@ -1,0 +1,186 @@
+body {
+    overflow-x: hidden;
+}
+#about ,#knigi, #middle, #final {
+    background-color: #FAE6FA;
+    padding: 3% 12%;
+
+}
+#middle h2 {
+    position: relative;
+    bottom:40px;
+    font-style: italic;
+    font-size:25px;
+    font-family:Arial;
+    font-weight: lighter;
+}
+#naslov
+{
+    font-family: 'Anek Malayalam', sans-serif;
+    font-size:40px;
+    font-weight: bold;
+
+}
+nav {
+    margin-bottom: 4.3em;
+}
+ul li {
+    font-size:1.2rem;
+}
+#prva_slika {
+    width:300px;
+    height:300px;
+    border-radius :50%;
+    margin-bottom:2em;
+    margin-top:2em;
+    
+    
+}
+
+#vtora_slika {
+    width:250px;
+    height:350px;
+    margin:10px;
+    
+    
+}
+
+#introduction {
+    
+    font-family: europa;
+    font-size:40px;
+   
+    
+}
+h3 {
+    font-family:europa;
+}
+.about-text {
+    font-size:32px;
+    margin-top:150px;
+    margin-bottom:10px;
+}
+.paragraph {
+    text-align: justify;
+}
+
+#knigi {
+    background-color: hsl(328, 49%, 71%);
+    color:white;
+}
+#knigi h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size:3em;
+}
+#knigi h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#final h3 {
+    font-family: 'Anek Malayalam', sans-serif;
+    font-weight: bold;
+    font-size:30px;
+    margin-top:20px;
+    
+    
+}
+footer {
+    padding: 3% 12%;
+    font-size:20px;
+    background-color: black;
+   
+    
+}
+
+#footer p {
+    color: white;
+}
+
+.ikoni {
+    margin:5px;
+    color:white;
+}
+h5 {
+    font-family: 'Anek Malayalam', sans-serif;
+    font-style: italic;
+    font-size:7px;
+}
+#latest {
+    font-family: 'Anek Malayalam', sans-serif;
+    font-weight: bold;
+    margin-bottom:50px;
+}
+
+
+.hidden {
+    display:none;
+}
+#view_more {
+   text-decoration: none;
+   color:black;
+   font-size:20px;
+   margin-left:45%;
+}
+@media (max-width:880px) 
+{
+    #view_more {
+        margin-left:40%;
+    }
+}
+
+
+.perfume_01 {
+    
+    border-radius: 30px;
+    
+}
+@media(max-width:880px) 
+{
+    .perfume_01 {
+        margin-left:30px;
+        width:400px;
+        height:250px;
+    }
+}
+
+
+.p_analysis {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+.titles {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px;
+    margin-bottom:35px;
+}
+.analysis {
+    text-align: justify;
+}
+#perfume_01 {
+    padding-bottom:40px;
+}
+#summary {
+    font-size:30px;
+    margin-bottom:30px;
+}
+#perfume_02 {
+    margin-bottom:50px;
+}
+@media(max-width:880px) {
+    #perfume_03 {
+        width:200px;
+        height:250px;
+        border-radius:30px;
+        margin-left:30px;
+    }
+}
+
+#perfume_01 {
+    margin-bottom:30px;
+}
+
+
+
+
+
